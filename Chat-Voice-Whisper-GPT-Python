@@ -79,3 +79,9 @@ response_audio = "/content/response_audio.wav"
 gtts_object.save(response_audio)
 
 display(Audio(response_audio, autoplay=True))
+
+
+// Sugestão de ideia de uso: Casa inteligente por voz
+// Não só “ligar a luz”, mas entender contexto:
+// “Estou com frio” → aumenta temperatura, fecha janela, sugere cobertor.
+// Integra com sensores (temperatura, presença) e automações. "Estou em perigo" → liga para a polícia e famiiliar
